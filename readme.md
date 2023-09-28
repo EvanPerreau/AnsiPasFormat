@@ -5,6 +5,8 @@ Created by [Evan Perreau](https://dev-boost.fr).
 
 ## Requierment
 
+1. WARNING! Ansi don't work on default windows terminal, you need to use Git Bash or other Ansi friendly terminal
+
 ## Installation
 
 ### Linux/Windows
