@@ -1,6 +1,6 @@
 # AnsiPasFormat
 
-AnsiPasFormat is a pascal unit was created to make it easier to format text in terminals.
+AnsiPasFormat is a pascal unit created to make it easier to format text in terminals.
 Created by [Evan Perreau](https://dev-boost.fr).
 
 ## Requierment
