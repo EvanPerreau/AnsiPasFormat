@@ -78,10 +78,9 @@ const
 
 function GetColor(color : TColor):string;
 procedure SetColor(color: TColor);
-procedure UnsetColor();
 function GetFormat(format : TFormat):string;
 procedure SetFormat(format: TFormat);
-procedure UnsetFormat();
+procedure Reset;
 
 implementation
 
@@ -107,11 +106,6 @@ begin
   end;
 end;
 
-procedure UnsetColor();
-begin
-  write(GetColor(TColor.ResetC));
-end;
-
 function GetFormat(format : TFormat):string;
 var
   i: Integer;
@@ -134,9 +128,9 @@ begin
   end;
 end;
 
-procedure UnsetFormat();
+procedure Reset;
 begin
-  write(GetFormat(TFormat.ResetF));
+  write(GetColor(TColor.ResetC));
 end;
 
 end.

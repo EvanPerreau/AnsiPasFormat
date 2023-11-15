@@ -9,13 +9,13 @@ begin
     SetFormat(TFormat.Underline);
     SetFormat(TFormat.Strikethrough);
     write('Hello, world!');
-    UnsetColor;
+    Reset;
     writeln;
     SetColor(TColor.BackgroundCyan);
     write('Shah kebab dijon > all kebab');
-    UnsetFormat;
+    Reset;
     writeln;
     write(GetColor(TColor.Red)+'We can also apply color like this.');
-    UnsetColor;
+    Reset;
     writeln;
 end.
