@@ -1,9 +1,11 @@
 # AnsiPasFormat
 
-PasBuild is a pascal unit was created to make it easier to format text in terminals.
+AnsiPasFormat is a pascal unit created to make it easier to format text in terminals.
 Created by [Evan Perreau](https://dev-boost.fr).
 
 ## Requierment
+
+1. WARNING! Ansi don't work on default windows terminal, you need to use Git Bash or other Ansi friendly terminal
 
 ## Installation
 
